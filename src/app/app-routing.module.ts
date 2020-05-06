@@ -12,6 +12,11 @@ const routes: Routes = [
     loadChildren: './login/login.module#LoginModule',
     data: { showHeader: false, showSidebar: false }
   },
+  {
+    path: 'registration',
+    loadChildren: './registration/registration.module#RegistrationModule',
+    data: { showHeader: false, showSidebar: false }
+  },
   { path: 'dashboard',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
   },
@@ -20,11 +25,6 @@ const routes: Routes = [
   },
   { path: 'account-settings',
     loadChildren: './account-settings/account-settings.module#AccountSettingsModule'
-  },
-  {
-    path: 'registration',
-    loadChildren: './registration/registration.module#RegistrationModule',
-    data: { showHeader: false, showSidebar: false }
   }
 ];
 
