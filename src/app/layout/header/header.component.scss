@@ -1,0 +1,16 @@
+:host{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background: #1A385C;
+
+  a.logo{
+    color: white;
+    border: 1px solid white;
+    background: #FF5E12;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+}
