@@ -1,0 +1,18 @@
+:host {
+  // display: flex;
+  // flex-direction: column;
+  // flex: 1 1 100%;
+  display: grid;
+
+  div{
+    display: flex;
+    flex-direction: row;
+    background: pink;
+
+    main {
+      background: white;
+    }
+  }
+}
+
+

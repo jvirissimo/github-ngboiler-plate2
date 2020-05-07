@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './layout/layout.module';
 import { AppRoutingModule } from './app-routing.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+//import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserModule,
     RouterModule.forRoot([]),
     AppRoutingModule,
-    FlexLayoutModule,
+    //FlexLayoutModule,
     LayoutModule
   ],
   providers: [],
