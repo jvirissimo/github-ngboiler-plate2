@@ -1,11 +1,16 @@
 :host{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 50px;
   background: #1A385C;
   padding: 10px;
   color: white;
+
+  form{
+    
+  }
 
   a.logo{
     color: white;
