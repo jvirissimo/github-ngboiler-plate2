@@ -1,40 +1,25 @@
-app-header{
-  grid-area: header;
-  // grid-column-start: 1;
-  // grid-column-end: 3;
-  // grid-row-start: 1;
-  // grid-row-end: 2;
-}
-
-app-sidebar{
-  grid-area: sidebar;
-  // grid-column-start: 1;
-  // grid-column-end: 2;
-  // grid-row-start: 2;
-  // grid-row-end: 2;
-}
-
-main{
-  grid-area: main;
-  // grid-column-start: 2;
-  // grid-column-end: 3;
-  // grid-row-start: 2;
-  // grid-row-end: 2;
-}
-
-app-footer{
-  grid-area: footer;
-  // grid-column-start: 1;
-  // grid-column-end: 3;
-  // grid-row-start: 3;
-  // grid-row-end: 4;
-}
-
 :host {
   min-height: 100vh;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr auto;
+
+  app-header{
+    grid-area: header;
+  }
+
+  app-sidebar{
+    grid-area: sidebar;
+  }
+
+  main{
+    grid-area: main;
+  }
+
+  app-footer{
+    grid-area: footer;
+  }
+  
   grid-template-areas:
   "header header"
   "sidebar main"
