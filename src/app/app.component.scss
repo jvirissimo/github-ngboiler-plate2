@@ -3,8 +3,19 @@
   // flex-direction: column;
   // flex: 1 1 100%;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 50px auto 50px;
+  //grid-template-columns: 100px 1fr;
+  //grid-template-rows: 50px 1fr 50px;
+  // grid-template-areas:
+  // "heading"
+  // "selection"
+  // "results";
+
+  // app-header{
+  //   grid-column-start: 1;
+  //   grid-column-end: 2;
+  //   grid-row-start: 1;
+  //   grid-row-end: 2;
+  // }
 
   div{
     display: flex;
