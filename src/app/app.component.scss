@@ -3,6 +3,8 @@
   // flex-direction: column;
   // flex: 1 1 100%;
   display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto 50px;
 
   div{
     display: flex;
