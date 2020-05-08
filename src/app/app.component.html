@@ -1,17 +1,4 @@
 <app-header *ngIf="showHeader"></app-header>
-
-<!-- <div>
-  <app-sidebar *ngIf="showSidebar"></app-sidebar>
-  <main>
-    <router-outlet></router-outlet>
-  </main>
-</div> -->
-
 <app-sidebar *ngIf="showSidebar"></app-sidebar>
-
-<main>
-  <router-outlet></router-outlet>
-</main>
-
+<main><router-outlet></router-outlet></main>
 <app-footer *ngIf="showFooter"></app-footer>
-
