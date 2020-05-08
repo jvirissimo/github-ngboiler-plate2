@@ -53,3 +53,8 @@ table {
 body{
   font-family: Roboto;
 }
+
+main section{
+  background: pink;
+  padding: 20px;
+}
