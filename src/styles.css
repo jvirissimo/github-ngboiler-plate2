@@ -55,6 +55,16 @@ body{
 }
 
 main section{
-  background: pink;
+  border: 1px dashed gray;
   padding: 20px;
+}
+
+h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+a{
+  margin-bottom: 10px;
 }
