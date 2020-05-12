@@ -54,6 +54,10 @@ body{
   font-family: Roboto;
 }
 
+main{
+  border: 1px solid red;
+}
+
 main section{
   border: 1px dashed gray;
   padding: 20px;
