@@ -6,6 +6,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent implements OnInit {
   showHeader = false;
   showSidebar = false;
@@ -22,5 +23,4 @@ export class AppComponent implements OnInit {
       }
     });
   }
-
 }
