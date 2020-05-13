@@ -20,9 +20,6 @@ const routes: Routes = [
   { path: 'dashboard',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
   },
-  // { path: 'users',
-  //   loadChildren: './users/users.module#UsersModule'
-  // },
   { path: 'account-settings',
     loadChildren: './account-settings/account-settings.module#AccountSettingsModule'
   }
