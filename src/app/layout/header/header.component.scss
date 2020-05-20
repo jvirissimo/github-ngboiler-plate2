@@ -8,15 +8,23 @@
   background: #1A385C;
   color: white;
 
-  form{
-    
-  }
-
   a.logo{
     color: white;
     border: 1px solid white;
     background: #FF5E12;
     padding: 4px;
     border-radius: 4px;
+  }
+
+  form{
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid white;
+  }
+
+  nav{
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid white;
   }
 }
