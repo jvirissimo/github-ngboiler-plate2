@@ -9,9 +9,32 @@
     align-items: center;
     flex-direction: column;
     border: 1px solid gray;
-    width: 200px;
     padding: 20px;
+    width: 150px;
     border-radius: 4px;
+    background: white;
+
+    button{
+      background: #D8D4D3;
+      border: none;
+      border-radius: 4px;
+      padding: 6px;
+      margin: 16px 0;
+    }
+
+    a{
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+      color: #20487A;
+
+    &.logo{
+        color: white;
+        background: #FF5E12;
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 
