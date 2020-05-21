@@ -21,8 +21,19 @@
     border-radius: 4px;
     border: 1px solid white;
 
+    input[type="search"]{
+      border: none;
+      height: 20px;
+      background: white;
+    }
+
     input[type="submit"]{
-      background: orange;
+      border: none;
+      height: 20px;
+      width: 20px;
+      color: white;
+      cursor: pointer;
+      background: #FF5E12;
     }
   }
 
@@ -30,5 +41,13 @@
     padding: 4px;
     border-radius: 4px;
     border: 1px solid white;
+
+    ul{
+      li{
+        a{
+          color: white;
+        }
+      }
+    }
   }
 }

@@ -1,6 +1,28 @@
 :host{
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   padding: 10px 20px;
   background: #1A385C;
+  font-size: 0.8rem;
+
+  nav{
+
+    ul{
+      li{
+        a{
+          color: white;
+        }
+      }
+    }
+  }
+
+  a.logo{
+    color: white;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0 10px;
+  }
 }
