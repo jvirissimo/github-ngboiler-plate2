@@ -55,17 +55,14 @@ body{
   background: #E8E5E5;
 }
 
-main{
-  //border: 1px solid red;
-}
-
 main section{
   border: 1px dashed gray;
   padding: 20px;
 }
 
-h1{
+main section h1{
   font-size: 1.2rem;
   font-weight: bold;
+  color: #1A385C;
   //margin-bottom: 10px;
 }
