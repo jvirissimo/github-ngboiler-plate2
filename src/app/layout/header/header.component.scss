@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  //justify-content: space-between;
   height: 50px;
   padding: 0 20px;
   background: white;
@@ -11,9 +11,9 @@
 
   a.logo{
     color: #FF5E12;;
-    border-radius: 4px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration: none;
+    margin-right: 6px;
   }
 
   h1{
@@ -25,11 +25,13 @@
     padding: 4px;
     border-radius: 4px;
     border: 1px solid #D8D4D3;
+    flex-grow: 1;
+    margin: 0 30px;
 
     input[type="search"]{
       border: none;
       height: 20px;
-      background: white;
+      background: pink;
     }
 
     input[type="submit"]{
