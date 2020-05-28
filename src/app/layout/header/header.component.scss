@@ -4,7 +4,7 @@
   align-items: center;
   //justify-content: space-between;
   height: 50px;
-  padding: 0 20px;
+  //padding: 0 20px;
   background: white;
   box-shadow: 0 6px 6px -6px rgba(0,0,0,0.4);
 
@@ -13,7 +13,7 @@
     color: #FF5E12;
     font-size: 2rem;
     text-decoration: none;
-    margin-right: 6px;
+    margin: 0 8px 0 40px;
   }
 
   h1{
@@ -33,7 +33,6 @@
 
     input[type="search"]{
       border: none;
-      height: 20px;
       flex-grow: 1;
     }
 
@@ -50,6 +49,7 @@
 
   nav{
     padding: 4px;
+    margin-right: 10px;
     border-radius: 4px;
     font-size: 0.9rem;
     border: 1px solid #1A385C;
