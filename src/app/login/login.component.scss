@@ -23,18 +23,30 @@
       font-size: 0.8rem;
     }
 
+    span.logo{
+      color: #FF5E12;
+      font-size: 3rem;
+      text-decoration: none;
+    }
+
+    h1{
+      color: #1A385C;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
     a{
       margin-bottom: 8px;
       font-size: 0.9rem;
       color: #20487A;
 
-    &.logo{
-        color: white;
-        background: #FF5E12;
-        padding: 8px;
-        border-radius: 4px;
-        margin-bottom: 10px;
-      }
+    // &.logo{
+    //     color: white;
+    //     background: #FF5E12;
+    //     padding: 8px;
+    //     border-radius: 4px;
+    //     margin-bottom: 10px;
+    //   }
     }
   }
 }

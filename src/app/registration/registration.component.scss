@@ -2,4 +2,19 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
+
+  section{
+    background: white;
+  }
+
+  h1{
+    color: #1A385C;
+    margin-bottom: 10px;
+  }
+
+  a{
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #20487A;
+  }
 }
