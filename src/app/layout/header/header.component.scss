@@ -22,6 +22,9 @@
   }
 
   form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 4px;
     border-radius: 4px;
     border: 1px solid #D8D4D3;
@@ -32,6 +35,7 @@
       border: none;
       height: 20px;
       background: pink;
+      flex-grow: 1;
     }
 
     input[type="submit"]{
