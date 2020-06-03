@@ -44,7 +44,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatInputModule,
     MatSliderModule,
     MatRadioModule,
-    MatSelectModule
+    MatSelectModule,
+    MatButtonModule
   ],
   declarations: [DashboardComponent]
 })

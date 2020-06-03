@@ -10,6 +10,10 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.interests = [
+      {value:'reading', viewValue:'Reading'},
+      {value:'swimming', viewValue:'Swimming'},
+      {value:'cycling', viewValue:'Cycling'}
+    ];
   }
-
 }
