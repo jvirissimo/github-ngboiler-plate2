@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './layout/layout.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule} from '@angular/forms';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
@@ -47,6 +48,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     AppRoutingModule,
     LayoutModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatFormFieldModule,
     MatInputModule,
     MatSliderModule
