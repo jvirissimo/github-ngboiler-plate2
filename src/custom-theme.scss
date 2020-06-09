@@ -29,3 +29,11 @@ $custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $cus
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($custom-app-theme);
+
+.alt-teal-theme{
+  $teal-app-primary: mat-palette($mat-teal);
+  $teal-app-accent:  mat-palette($mat-yellow);
+  $teal-app-warn:    mat-palette($mat-red);
+  $teal-app-theme: mat-light-theme($teal-app-primary, $teal-app-accent, $teal-app-warn);
+  @include angular-material-theme($teal-app-theme);
+}
