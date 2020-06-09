@@ -1,10 +1,3 @@
-// @import '~@angular/material/theming';
-
-// @include mat-core();
-
-// $custom-theme-primary: mat-palette();
-// $custom-theme-accent:  mat-palette($mat-pink, A200, A100, A400);
-
 @import '~@angular/material/theming';
 // Plus imports for other components in your app.
 
@@ -12,6 +5,9 @@
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
 @include mat-core();
+
+//Custom Colors
+
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
