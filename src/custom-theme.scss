@@ -7,9 +7,6 @@
 @include mat-core();
 
 //Custom Colors
-$brand-blue: (
-
-);
 
 $brand-blue: (
   50 : #e4e7eb,
@@ -82,7 +79,7 @@ $brand-orange: (
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $custom-app-primary: mat-palette($brand-blue);
-/$custom-app-accent:  mat-palette($brand-orange);
+$custom-app-accent:  mat-palette($brand-orange);
 //$custom-app-accent:  mat-palette($brand-orange, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
