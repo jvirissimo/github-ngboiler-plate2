@@ -9,17 +9,9 @@
       <mat-form-field>
         <input type="text" matInput name="firstName" placeholder="First Name" />
       </mat-form-field>
-    </div>
-    <div>
       <mat-form-field>
         <input type="text" matInput name="lastName" placeholder="Last Name" />
       </mat-form-field>
-    </div>
-    <div>
-      <mat-radio-group>
-        <mat-radio-button name="gender" value="male"> Male </mat-radio-button> &nbsp;
-        <mat-radio-button name="gender" value="female"> Female </mat-radio-button>
-      </mat-radio-group>
     </div>
     <div>
       <mat-form-field>
@@ -40,8 +32,18 @@
         </mat-select>
       </mat-form-field>
     </div>
-    <div>
+     <div>
+      <mat-radio-group>
+        <mat-radio-button name="gender" value="yes"> Yes </mat-radio-button> &nbsp;
+        <mat-radio-button name="gender" value="no"> No </mat-radio-button>
+      </mat-radio-group>
+      &nbsp;
+      <mat-checkbox>Check me!</mat-checkbox>
+    </div>
+    <div style="margin-top: 20px">
       <button mat-flat-button color="primary" type="submit">REGISTER</button>
     </div>
   </form>
+
+  
 </section>
