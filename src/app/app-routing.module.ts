@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -19,6 +20,10 @@ const routes: Routes = [
   },
   { path: 'dashboard',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
+  },
+  {
+    path:'material-table',
+    component:MaterialTableComponent
   },
   { path: 'account-settings',
     loadChildren: './account-settings/account-settings.module#AccountSettingsModule'
