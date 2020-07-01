@@ -5,7 +5,7 @@ import { MaterialTableComponent } from './material-table/material-table.componen
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/login',
+    redirectTo: '/dashboard',
     pathMatch: 'full'
   },
   {
